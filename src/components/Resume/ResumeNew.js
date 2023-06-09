@@ -31,7 +31,7 @@ function ResumeNew() {
             className="d-flex justify-content-center"
             onLoadSuccess={onDocumentLoadSuccess}
           >
-            <div style={{ display: "flex", flexWrap: "wrap" }}>
+            <div>
               {Array.from(new Array(numPages), (el, index) => (
                 <Page
                   key={`page_${index + 1}`}
