@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Mohamed-Ahmed-Ali/Data-Science-Resume/7876e362280681657a95cdfaf4452360f117f726/Mohamed%20Ali%20Resume.pdf";
+    "https://raw.githubusercontent.com/Mohamed-Ahmed-Ali/Data-Science-Resume/7876e362280681657a95cdfaf4452360f117f726/Mohamed%20Ali%20Resume.pdf";
 
 function ResumeNew() {
     const [width, setWidth] = useState(1200);
@@ -37,19 +37,6 @@ function ResumeNew() {
                         <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
                     </Document>
                 </Row>
-
-                <Row style={{ justifyContent: "center", position: "relative" }}>
-                    <Button
-                        variant="primary"
-                        href={pdf}
-                        target="_blank"
-                        style={{ maxWidth: "250px" }}
-                    >
-                        <AiOutlineDownload />
-                        &nbsp;Download CV
-                    </Button>
-                </Row>
-
                 <Row style={{ justifyContent: "center", marginTop: "20px" }}>
                     <Button
                         variant="secondary"
@@ -67,8 +54,23 @@ function ResumeNew() {
                         Next Page
                     </Button>
                 </Row>
+                <Row style={{ justifyContent: "center", position: "relative" }}>
+                    <Button
+                        variant="primary"
+                        href={pdf}
+                        target="_blank"
+                        style={{ maxWidth: "250px" }}
+                    >
+                        <AiOutlineDownload />
+                        &nbsp;Download CV
+                    </Button>
+                </Row>
+
+
             </Container>
         </div>
     );
 }
 
+
+export default ResumeNew;
