@@ -13,10 +13,19 @@ const resumeLink =
 
 function ResumeNew() {
     const [width, setWidth] = useState(1200);
+    const [pageNumber, setPageNumber] = useState(1);
 
     useEffect(() => {
         setWidth(window.innerWidth);
     }, []);
+
+    function handlePrevPage() {
+        setPageNumber(pageNumber - 1);
+    }
+
+    function handleNextPage() {
+        setPageNumber(pageNumber + 1);
+    }
 
     return (
         <div>
@@ -25,7 +34,7 @@ function ResumeNew() {
 
                 <Row className="resume">
                     <Document file={resumeLink} className="d-flex justify-content-center">
-                        <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+                        <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
                     </Document>
                 </Row>
 
@@ -40,9 +49,26 @@ function ResumeNew() {
                         &nbsp;Download CV
                     </Button>
                 </Row>
+
+                <Row style={{ justifyContent: "center", marginTop: "20px" }}>
+                    <Button
+                        variant="secondary"
+                        disabled={pageNumber <= 1}
+                        onClick={handlePrevPage}
+                        style={{ marginRight: "10px" }}
+                    >
+                        Prev Page
+                    </Button>
+                    <Button
+                        variant="secondary"
+                        disabled={pageNumber >= 2}
+                        onClick={handleNextPage}
+                    >
+                        Next Page
+                    </Button>
+                </Row>
             </Container>
         </div>
     );
 }
 
-export default ResumeNew;
