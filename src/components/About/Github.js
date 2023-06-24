@@ -8,12 +8,12 @@ function Github() {
       <div>
          <Row style={{ justifyContent: "center" , paddingBottom: "10px" }}>
               <h1 className="project-heading">
-                    <strong className="purple">Certifications</strong>
+                    <strong className="purple">Certificates</strong>
               </h1>
          </Row>
       <Row style={{ justifyContent: "center" , paddingBottom: "50px" }}>
         <div style={{ maxWidth: "1000px" }}>
-          <img src={certificationImg} alt="Certification" style={{ width: "100%" }} />
+          <img src={certificationImg} alt="Certificates" style={{ width: "100%" }} />
         </div>
       </Row>
 
