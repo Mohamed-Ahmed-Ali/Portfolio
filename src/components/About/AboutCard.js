@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mohamed Ali </span>
             from <span className="purple"> Cairo, Egypt.</span>
-            <br />I am a junior Data Engineer.
+            <br />I am a junior Data Scientist.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
