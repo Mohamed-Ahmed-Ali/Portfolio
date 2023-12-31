@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5b06a878.css",
-    "main.js": "/Portfolio/static/js/main.1fba0d98.js",
+    "main.js": "/Portfolio/static/js/main.826f2066.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Mohamed Ali Resume.pdf": "/Portfolio/static/media/Mohamed Ali Resume.8855efd0ca7ba8d920d3.pdf",
+    "static/media/Architecture.png": "/Portfolio/static/media/Architecture.86f2bb1db147734582be.png",
     "static/media/Investigation-of-TMDB-Data-Set.jpeg": "/Portfolio/static/media/Investigation-of-TMDB-Data-Set.8fbf110847da689eaa9b.jpeg",
+    "static/media/Architecture (1).png": "/Portfolio/static/media/Architecture (1).d6b4750255168353f470.png",
     "static/media/emotion.png": "/Portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/Solution-Architecture.png": "/Portfolio/static/media/Solution-Architecture.bdb4c92d60c42f1e012c.png",
+    "static/media/arc.png": "/Portfolio/static/media/arc.e33a32003b34bb9de3b4.png",
+    "static/media/about.png": "/Portfolio/static/media/about.9bd62482fc24bce162b5.png",
+    "static/media/image.png": "/Portfolio/static/media/image.e960fc054bc3716dbbef.png",
     "static/media/Advanced-Data-Analysis-Certification.png": "/Portfolio/static/media/Advanced-Data-Analysis-Certification.45620591e605af241e16.png",
-    "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Mohamed Ali Resume.pdf": "/Portfolio/static/media/Mohamed Ali Resume.6831f06d7889433d220e.pdf",
     "static/media/Prediction-of-Superconductor-critical-temperature-using-Machine-learning-techniques.jpg": "/Portfolio/static/media/Prediction-of-Superconductor-critical-temperature-using-Machine-learning-techniques.1c7b2fd44ecfe1eacf24.jpg",
     "static/media/Stock Market Prediction using Numerical and Textual Analysis.jpg": "/Portfolio/static/media/Stock Market Prediction using Numerical and Textual Analysis.82faac5118e6c9a615dc.jpg",
     "static/media/Exploratory-Data-Analysis-Prosper-Loan-Data.png": "/Portfolio/static/media/Exploratory-Data-Analysis-Prosper-Loan-Data.9a7b8e54f679b0a0d535.png",
+    "static/media/dwh_erd.png": "/Portfolio/static/media/dwh_erd.dd03e94d46e3b67c9c1b.png",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.3b457b43b03750aee3ff314301cdb8a3.svg",
     "static/media/KMeans_Clustering.png": "/Portfolio/static/media/KMeans_Clustering.f8f111a55ca3e6a94d55.png",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.4f8968b8113b90b6ca9076fe018fc0d4.svg",
@@ -20,12 +26,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.5b06a878.css.map": "/Portfolio/static/css/main.5b06a878.css.map",
-    "main.1fba0d98.js.map": "/Portfolio/static/js/main.1fba0d98.js.map",
+    "main.826f2066.js.map": "/Portfolio/static/js/main.826f2066.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b06a878.css",
-    "static/js/main.1fba0d98.js"
+    "static/js/main.826f2066.js"
   ]
 }
